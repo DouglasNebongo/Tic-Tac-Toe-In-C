@@ -104,6 +104,7 @@ void play_game(TBoard A) {
             printf("\nError: Unknown player type %c\n", disc);
         }
     } while ((stop == 0) && (placed_disc < 9)); // Continue until there is a winner or the grid is full
+    //while(!(stop != 0 || placed_disc >= 9))
 
     if (stop == 0) {
         printf("\nGame over! It is a tie!\n");
