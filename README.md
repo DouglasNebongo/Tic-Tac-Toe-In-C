@@ -31,6 +31,7 @@ Welcome to the Tic-Tac-Toe game repository! This is a simple implementation of a
 To run this game on your local machine, follow these steps:
 
 1. **Clone the repository:**
+   ```bash
    gh repo clone DouglasNebongo/Tic-Tac-Toe-In-C
    cd tic-tac-toe-c
    gcc tic_tac_toe.c -o tic_tac_toe
